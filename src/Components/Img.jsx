@@ -76,7 +76,7 @@ const Img = () => {
                     <div className='row'>
                         {result.length > 0 ? (
                             result.map((actualData) => (
-                                <div className='col-md-3' key={actualData.id}>
+                                <div className='col-md-4' key={actualData.id}>
                                     <img
                                         style={img1}
                                         src={actualData.urls.regular}
